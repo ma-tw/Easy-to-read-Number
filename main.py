@@ -21,7 +21,7 @@ while True:
     else:
         break
 
-mes = ['万 ', '億 ', '兆 ', '京 ', '垓 ', '杼 ', '穣 ', '溝 ', '澗 ', '正 ', '載 ', '極 ']
+mes = ['万 ', '億 ', '兆 ', '京 ', '垓 ', '杼 ', '穣 ', '溝 ', '澗 ', '正 ', '載 ', '極 ', '恒河沙 ', '阿僧祇 ', '那由多 ', '不可思議 ', '無量大数 ']
 
 num_integer = math.modf(num)[1]
 num_fraction = decimal.Decimal(str(num)) - decimal.Decimal(str(math.modf(num)[1]))
